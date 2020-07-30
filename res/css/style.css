@@ -32,6 +32,12 @@ html::-webkit-scrollbar {
     font-family: sans-serif;
 }
 
+.scale {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
 #r1 {
     grid-row: 1;
     grid-column: span 2;
