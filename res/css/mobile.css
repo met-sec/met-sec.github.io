@@ -13,8 +13,8 @@ html::-webkit-scrollbar {
 
 .container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: 5% 50% 50% 50% 10%;
+    grid-template-columns: 100%;
+    grid-auto-rows: 5% 35% 25% 35% 10%;
     height: 100%;
 }
 
@@ -22,13 +22,14 @@ html::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content {
     margin: 10px;
     width: 100%;
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     color: lightgray;
     font-family: sans-serif;
 }

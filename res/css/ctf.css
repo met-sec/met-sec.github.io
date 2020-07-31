@@ -1,0 +1,30 @@
+#r1 {
+    grid-row: 1;
+    grid-column: span 2;
+    background-color: darkslateblue;
+}
+
+#r2 {
+    grid-row: span 2;
+    grid-column: span 2;
+    background-image: url("../ctfdrop.png");
+    background-position: center;
+    background-color: #111111;
+}
+
+#r3 {
+    grid-row: 4;
+    grid-column: span 2;
+    background-color: #222222;
+}
+
+#r4 {
+    grid-row: 5;
+    grid-column: span 2;
+    background-color: #111111;
+}
+
+.overlay {
+    font-size: xx-large;
+    background: #222222;
+}
