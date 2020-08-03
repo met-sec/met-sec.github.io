@@ -11,13 +11,6 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: 5% 50% 50% 50% 10%;
-    height: 100%;
-}
-
 .flex {
     display: flex;
     justify-content: center;
@@ -26,8 +19,9 @@ html::-webkit-scrollbar {
 
 .content {
     margin: 10px;
-    width: 100%;
+    width: 90%;
     text-align: center;
+    font-size: larger;
     color: lightgray;
     font-family: sans-serif;
 }
@@ -36,4 +30,9 @@ html::-webkit-scrollbar {
     height: 100%;
     width: 100%;
     object-fit: scale-down;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
 }
