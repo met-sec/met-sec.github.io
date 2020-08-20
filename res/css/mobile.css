@@ -1,4 +1,4 @@
-html,body {
+ html,body {
     padding: 0;
     margin: 0;
     height: 100vh;
@@ -14,7 +14,7 @@ html::-webkit-scrollbar {
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: 5% 35% 25% 35% 10%;
+    grid-auto-rows: 5% 25% 20% 20% 35% 10%;
     height: 100%;
 }
 
@@ -43,4 +43,41 @@ html::-webkit-scrollbar {
 a {
     text-decoration: none;
     color: dodgerblue;
+}
+
+
+#r1 {
+    grid-row: 1;
+    grid-column: span 2;
+    background-color: darkslateblue;
+}
+
+#r2 {
+    grid-row: 2;
+    grid-column: span 2;
+    background-color: #111111;
+}
+
+#r3 {
+    grid-row: 3;
+    grid-column: span 2;
+    background-color: #222222;
+}
+
+#r4 {
+    grid-row: 4;
+    grid-column: span 2;
+    background-color: #111111;
+}
+
+#r5 {
+    grid-row: 5;
+    grid-column: span 2;
+    background-color: #222222;
+}
+
+#r6 {
+    grid-row: 6;
+    grid-column: span 2;
+    background-color: #111111;
 }
