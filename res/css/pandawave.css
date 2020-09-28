@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: 5% auto 10%;
+    height: 100%;
+}
+
+#r1 {
+    grid-row: 1;
+    grid-column: span 2;
+    background-color: darkslateblue;
+}
+
+#r2 {
+    grid-row: 2;
+    background-color: #111111;
+}
+
+#r3 {
+    grid-row: 3;
+    background-color: #222222;
+}
+
+#pandas {
+    flex-wrap: wrap;
+}
